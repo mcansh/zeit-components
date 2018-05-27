@@ -1,7 +1,6 @@
 {
 	"name": "zeit-components",
 	"version": "1.0.0",
-	"main": "index.js",
 	"author": "Logan McAnsh <logan@mcan.sh> (https://mcan.sh)",
 	"license": "MIT",
 	"dependencies": {
