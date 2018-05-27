@@ -12,6 +12,7 @@ export const CodeSnippet = styled.pre`
 export const Code = styled.code`
   color: ${props => props.theme.code};
   font-family: ${props => props.theme.monospaced};
+  font-size: ${props => (props.snippet ? '1.3rem' : '0.9em')};
   white-space: pre-wrap;
   &::before,
   &::after {
