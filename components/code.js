@@ -11,8 +11,7 @@ export const CodeSnippet = styled.pre`
 
 export const Code = styled.code`
   color: ${props => props.theme.code};
-  font-family: 'Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif';
-  font-size: 0.9em;
+  font-family: ${props => props.theme.monospaced};
   white-space: pre-wrap;
   &::before,
   &::after {
