@@ -1,6 +1,12 @@
 import React from 'react';
-import { GeistWrapper, Container, Avatar, H1, AvatarGroup } from '~/components';
-import { H3 } from '~/components/style/h3';
+import {
+  GeistWrapper,
+  Container,
+  Avatar,
+  H1,
+  AvatarGroup,
+  H3,
+} from '~/components';
 
 const Index = () => (
   <div
